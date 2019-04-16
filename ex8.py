@@ -1,12 +1,12 @@
 formatter = "{} {} {} {}"
 
-print(formatter.format(1, 2, 3, 4))
+print(formatter.format(1,2,3,4))
 print(formatter.format("one", "two", "three", "four"))
 print(formatter.format(True, False, False, True))
 print(formatter.format(formatter, formatter, formatter, formatter))
 print(formatter.format(
-    "Cats",
-    "Are great",
-    "So",
-    "Are dogs"
+    "Going to take",
+    "my horse",
+    "to the old town rode",
+    "going to ride till I can't no more"
 ))
